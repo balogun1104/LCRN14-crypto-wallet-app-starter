@@ -3,7 +3,7 @@ import {
     TouchableOpacity,
 } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
-
+import { TabIcons } from "../components";
 import { Home, Portfolio, Market, Profile } from "../screens"
 import { COLORS } from "../constants"
 
