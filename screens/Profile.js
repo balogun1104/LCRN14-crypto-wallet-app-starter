@@ -1,15 +1,15 @@
-import React from 'react';
-import {
-    View,
-    Text
-} from 'react-native';
+import React from "react";
+import { View, Text } from "react-native";
+import MainLayout from "./MainLayout";
 
 const Profile = () => {
-    return (
-        <View>
-            <Text>Profile</Text>
-        </View>
-    )
-}
+  return (
+    <MainLayout>
+      <View>
+        <Text>Profile</Text>
+      </View>
+    </MainLayout>
+  );
+};
 
 export default Profile;
